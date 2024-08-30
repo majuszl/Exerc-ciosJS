@@ -1,19 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-br" dir="ltr">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-
-<script>
-// - Remover Elementos em Posições Ímpares: Escreva uma função que remova 
+    <title>JavaScript</title>
+    <script>
+// Remover Elementos em Posições Ímpares: Escreva uma função que remova 
 // todos os elementos que estão em posições ímpares da lista.
 
+        var lista1 = [0,1,2,3,4] 
 
-</script>
+        alert('Lista original: ' + lista1)
 
+        for (contar in lista1) {
+            if (contar % 2 != 0) {
+                lista1.splice(contar, 1)
+            }
+        }
+        alert('Lista sem as posições ímpares: ' + lista1) 
+    </script>
 </head>
 <body>
-    
+
 </body>
 </html>

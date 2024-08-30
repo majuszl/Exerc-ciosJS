@@ -1,19 +1,33 @@
 <!DOCTYPE html>
-<html lang="pt-br" dir="ltr">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-
-<script>
+    <title>JavaScript</title>
+    <script>
 // - Intersecção de Listas: Crie uma função que receba duas listas e retorne 
 // uma nova lista contendo apenas os elementos que aparecem em ambas as listas.
 
+        var lista1 = [1,2,3,4,5] 
+        var lista2 = [5,6,7,8,9] 
+        var listanova = [] 
 
-</script>
+        alert('Lista1: ' + lista1)
+        alert('Lista2: ' + lista2)
 
+        for (contar1 in lista1) { 
+            for(contar2 in lista2) { 
+                if (lista1[contar1] == lista2[contar2]) { 
+                   listanova.push(lista1[contar1]) 
+                }
+            }
+        }
+        alert(listanova) 
+
+    </script>
 </head>
 <body>
-    
+
 </body>
 </html>
+
